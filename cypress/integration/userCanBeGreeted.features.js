@@ -1,4 +1,4 @@
-describe('user can get a greeting when click a button', () => {
+describe('user can get a greeting when clicking a button', () => {
 	it('user can reach site', () => {
         cy.visit('http://localhost:3001')
         cy.get('#quote').click()
